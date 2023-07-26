@@ -46,3 +46,5 @@ MinMaxArray(array, out double minA, out double maxA);
 
 System.Console.WriteLine($"Максимальное число в массиве: {maxA}");
 System.Console.WriteLine($"Минимальное число в массиве: {minA}");
+
+System.Console.WriteLine($"Разница между максимальным и минимальным элементом массива: {maxA - minA}");
