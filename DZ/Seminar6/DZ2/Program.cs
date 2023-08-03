@@ -10,12 +10,12 @@ int[] ReadArray(string array)
     return readArray;
 }
 
-void Line(int[] new_Array, out int b1, out int b2, out int k1, out int k2)
+void Line(int[] new_Array, out int b1, out int b2, out int k1, out int k2) 
 {
-    int b1 = readArray[0];
-    int b2 = readArray[1];
-    int k1 = readArray[2];
-    int k2 = readArray[3];
+    b1 = new_Array[0];
+    b2 = new_Array[1];
+    k1 = new_Array[2];
+    k2 = new_Array[3];
 }
 //-----------------------------------------------------------------------------
 int[] readArray = ReadArray("text");

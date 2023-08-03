@@ -55,18 +55,24 @@ void SearchMatrix(int[,] matrix, int number)
                 break;
             }
         }
-        System.Console.WriteLine();
         if (sum == 1)
         {
             break;
         }
+
     }
+    if (sum == 0)
+    {
+        System.Console.WriteLine();
+        System.Console.WriteLine(number + "-->" + "Такого числа в массиве нет!");
+    }
+
 }
 
 //---------------------------------------------------------------------------------------------
 int number = ReadInt("Введите искомое число: ");
 
-int[,] matrix = NewMatrix(5, 5, 1, 3);
+int[,] matrix = NewMatrix(5, 5, 1, 20);
 
 PrintMatrix(matrix);
 
